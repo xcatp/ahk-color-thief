@@ -1,0 +1,35 @@
+--- zoom level
+zoom : 15  # range [5, 'viewH']
+
+--- switch
+hex : 1
+tip : 1
+pic : 1
+
+--- pos & size
+offsetX : 12
+offsetY : 12
+viewW   : 161
+viewH   : 129
+tileW   : 10
+
+--- pic pos
+# works when 'pic' is 1
+# value can be negative
+picOffsetX : -3
+picOffsetY : 0
+
+--- font
+font         : MaytermOne
+fontColor    : ffdbffd5
+fontSize     : s20
+fontFallback : 'Microsoft JhengHei'
+
+--- color (all ARGB)
+tipBgc          : 8f000000
+overflowZoneBgc : f4dcecdf
+crossLineBgc    : c587ff6d
+borderBgc1      : ff000000
+borderBgc2      : ffffffff
+tileColor1      : ffa2a2a2
+tileColor2      : ffd5d5d5
